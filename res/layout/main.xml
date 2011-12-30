@@ -17,4 +17,11 @@
         android:layout_height="wrap_content"
         android:text="hogehoge"
         android:textSize="16sp" />
+    <!-- dpで指定することで設定を無視できる -->
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="hogehoge"
+        android:textSize="16dp" />
 </LinearLayout>
